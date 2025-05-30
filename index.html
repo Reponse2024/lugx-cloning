@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUGX Gaming - Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    </style>
+</head>
+<body class="bg-blue-600">
+    <div class="min-h-screen bg-blue-600 text-white">
+
+        <header class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <span class="text-2xl font-bold">LUGX</span>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="text-white hover:text-gray-300">Home</a>
+                <a href="#" class="text-white hover:text-gray-300">Our Shop</a>
+                <a href="#" class="text-white hover:text-gray-300">Product Details</a>
+                <a href="#" class="text-white hover:text-gray-300">Contact Us</a>
+            </nav>
+            <button class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-6 rounded-full hidden md:block">SIGN IN</button>
+
+            <button class="md:hidden text-white">
+                <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </header>
+
+        <main class="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
+            <div class="w-full md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                <p class="text-lg font-semibold text-gray-200 mb-2">WELCOME TO LUGX</p>
+                <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+                    BEST GAMING SITE
+                    <br>
+                    <span class="relative inline-block">
+                        EVER!
+                        <span class="absolute left-0 right-0 bottom-0 h-1 bg-red-500 transform scale-x-75 origin-left"></span>
+                    </span>
+                </h1>
+                <p class="text-gray-300 text-base mb-8 max-w-lg mx-auto md:mx-0">
+                    LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and use this layout for commercial purposes.
+                    <br>
+                    Please tell your friends about TemplateMo.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center sm:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <input type="text" placeholder="Type Something" class="p-3 rounded-full bg-blue-700 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 w-full sm:w-auto">
+                    <button class="bg-red-500 hover:bg-red-600 text-white font-semibold py-3 px-8 rounded-full w-full sm:w-auto">SEARCH NOW</button>
+                </div>
+            </div>
+
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end relative">
+                <div class="relative w-[300px] h-[400px] bg-red-500 rounded-lg overflow-hidden shadow-lg">
+                    <img src="https://via.placeholder.com/300x400/999999/FFFFFF?text=Assassin's+Creed" alt="Assassin's Creed Character" class="w-full h-full object-cover">
+                    <div class="absolute top-4 right-4 bg-blue-500 text-white text-lg font-bold py-1 px-3 rounded-lg shadow-md">
+                        $22
+                    </div>
+                    <div class="absolute bottom-4 left-4 bg-red-500 text-white text-lg font-bold py-1 px-3 rounded-full shadow-md">
+                        -40%
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
