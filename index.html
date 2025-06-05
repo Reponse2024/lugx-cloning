@@ -9,7 +9,7 @@
     </style>
 </head>
 <body class="">
-    <div class="bg-[url('/images/banner-bg.jpeg')] bg-cover text-white rounded-b-[170px] w-full h-[1300px]">
+    <div class="bg-[url('/images/banner-bg.jpeg')] bg-cover text-white rounded-b-[170px] w-full h-[900px] max-sm:h-[1300px]">
 
         <header class="container mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center space-x-2">
@@ -27,12 +27,6 @@
                 <span id="menu-burger" class="text-2xl font-bold">☰</span>
                 <span id="menu-cross" class="hidden text-2xl font-bold">✕</span>
             </button>
-            <!-- <div class="hidden md:hidden bg-white text-black rounded-b-2xl mt-60" id="burger">
-                <a href="#" class="block hover:text-red-500 px-4 py-2 text-2xl rounded-full">Home</a>
-                <a href="#" class="block  hover:text-red-500 px-4 py-2 text-2xl rounded-full">Our Shop</a>
-                <a href="#" class="block  hover:text-red-500 px-4 py-2 text-2xl rounded-full">Product Details</a>
-                <a href="#" class="block  hover:text px-4 py-2 text-2xl rounded-full">Contact Us</a>
-            </div> -->
         </header>
             <div class="hidden md:hidden bg-white text-black rounded-b-2xl ml-6 mr-6" id="burger">
                 <a href="#" class="block hover:text-red-500 px-4 py-2 text-2xl">Home</a>
@@ -57,14 +51,16 @@
                     <br>
                     Please tell your friends about TemplateMo.
                 </p>
-                <div class="flex items-center">
+                <!-- Added md:mt-32 to move this division with input and a button down -->
+                <div class="flex items-center md:mt-32">
                     <input type="text" placeholder="Type Something" class="py-4 rounded-full bg-white-700 text-black text-3xl placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-400">
                     <button class="bg-red-400 hover:bg-blue-600 font-semibold py-6 px-8 rounded-full -ml-16 max-sm:px-[26px] max-sm:ml-[-135px] max-sm:whitespace-nowrap md:whitespace-nowrap">SEARCH NOW</button>
                 </div>
             </div>
-            <div class="w-full md:w-1/2 flex justify-center md:justify-end relative md:pl-8">
-                <div class="relative w-[300px] h-[400px]">
-                    <img src="images/banner-image.jpeg" alt="Assassin's Creed Character" class="w-full h-full object-cover">
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end relative md:pl-8 ">
+                <div class="relative w-[400px] h-[500px] max-sm:w-[320px] md:mb-14">
+                                                 <!-- Removed object-cover from the image, and added rounded-3xl -->
+                    <img src="images/banner-image.jpeg" alt="Assassin's Creed Character" class=" rounded-3xl w-full h-full">
                     <div class="absolute top-4 right-4 bg-blue-500 text-white text-lg font-bold py-1 px-3 rounded-lg shadow-md">
                         $22
                     </div>
